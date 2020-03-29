@@ -1,0 +1,60 @@
+.lungs {
+    fill: rgb(160, 59, 46) !important;
+    transform-origin: 24px 37px !important;
+    position: center;
+    left: 61px !important;
+    top: 88px;
+    right: 34px;
+}
+
+.headHurts {
+    fill: rgb(160, 59, 46) !important;
+    transform-origin: 24px 37px !important;
+    position: center;
+    left: 74px !important;
+    top: -4px;
+    right: 34px;
+}
+
+.fever {
+    fill: rgb(131, 24, 185) !important;
+    top: -5px !important;
+    left: 72px !important; 
+    transform-origin: 24px 37px !important;
+}
+
+.headSvg{
+    position: absolute;
+    transform-origin: 24px 37px !important;
+    top: -170px !important;
+    left: -80px !important;
+    bottom: 50px;
+}
+
+.chestSvg{
+    position: absolute;
+    transform-origin: 24px 37px !important;
+    top: -84px !important;
+    left: -83px !important;
+    bottom: 50px !important; 
+    z-index: 3;
+}
+
+.feverSvg{
+    position: absolute;
+    transform-origin: 24px 37px !important;
+    top: -120px !important;
+    left: -283px !important;
+    bottom: 50px !important; 
+    z-index: 3;
+}
+
+.achesSvg{
+    margin: 0;
+    position: absolute;
+    transform-origin: 24px 37px !important;
+    top: 85px !important;
+    left: -283px !important;
+    bottom: 50px !important; 
+    z-index: 3;
+}

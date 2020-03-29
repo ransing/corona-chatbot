@@ -1,3 +1,8 @@
+
+.body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,347 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* human body */
+.human-body {
+  width: 207px;
+  position: relative;
+  padding-top: 240px;
+  height: 290px !important;
+  display: block;
+  margin: 120px auto;
+}
+
+.human-body svg:hover {
+  cursor: pointer;
+}
+
+.human-body svg:hover path {
+  fill: #ff7d16;
+}
+
+.human-fever scg {
+  position: absolute;
+  left: 50%;
+  fill: #c71e1e;
+}
+
+.human-body svg {
+  position: absolute;
+  left: 50%;
+  fill: #989a9bea;
+}
+
+.human-body svg#head {
+  margin-left: -28.5px;
+  top: -6px;
+}
+
+.human-body svg#left-shoulder {
+  margin-left: -53.5px;
+  top: 69px;
+}
+
+.human-body svg#right-shoulder {
+  margin-left: 13.5px;
+  top: 69px;
+}
+
+.human-body svg#left-arm {
+  margin-left: -78px;
+  top: 112px;
+}
+
+.human-body svg#right-arm {
+  margin-left: 38px;
+  top: 112px;
+  z-index: 10001;
+}
+
+.human-body svg#chest {
+  margin-left: -43.5px;
+  top: 88px;
+}
+
+.human-body svg#stomach {
+  margin-left: -37.5px;
+  top: 130px;
+}
+
+.human-body svg#left-leg {
+  margin-left: -46.5px;
+  top: 205px;
+  z-index: 9999;
+}
+
+.human-body svg#right-leg {
+  margin-left: 1.5px;
+  top: 205px;
+  z-index: 9999;
+}
+
+.human-body svg#left-hand {
+  margin-left: -102.5px;
+  top: 224px;
+}
+
+.human-body svg#right-hand {
+  margin-left: 66.5px;
+  top: 224px;
+  z-index: 10000;
+}
+
+.human-body svg#left-foot {
+  margin-left: -35.5px;
+  top: 455px;
+}
+
+.human-body svg#right-foot {
+  margin-left: 5.5px;
+  top: 455px;
+}
+
+#area {
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Courier New;
+  color: #a5a5a5;
+}
+
+#area #data {
+  color: black;
+}
+
+/* fever */
+
+.human-fever {
+  width: 207px;
+  position: relative;
+  padding-top: 240px;
+  height: 290px !important;
+  display: block;
+  margin: 120px auto;
+}
+
+.human-fever svg:hover {
+  cursor: pointer;
+}
+
+.human-fever svg:hover path {
+  fill: #ff7d16;
+}
+
+.human-fever scg {
+  position: absolute;
+  left: 50%;
+  fill: #c71e1e;
+}
+
+.human-fever svg {
+  position: absolute;
+  left: 50%;
+  fill: #d11717;
+}
+
+.human-fever svg#head {
+  margin-left: -28.5px;
+  top: -6px;
+}
+
+.human-fever svg#left-shoulder {
+  margin-left: -53.5px;
+  top: 69px;
+}
+
+.human-fever svg#right-shoulder {
+  margin-left: 13.5px;
+  top: 69px;
+}
+
+.human-fever svg#left-arm {
+  margin-left: -78px;
+  top: 112px;
+}
+
+.human-fever svg#right-arm {
+  margin-left: 38px;
+  top: 112px;
+  z-index: 10001;
+}
+
+.human-fever svg#chest {
+  margin-left: -43.5px;
+  top: 88px;
+}
+
+.human-fever svg#stomach {
+  margin-left: -37.5px;
+  top: 130px;
+}
+
+.human-fever svg#left-leg {
+  margin-left: -46.5px;
+  top: 205px;
+  z-index: 9999;
+}
+
+.human-fever svg#right-leg {
+  margin-left: 1.5px;
+  top: 205px;
+  z-index: 9999;
+}
+
+.human-fever svg#left-hand {
+  margin-left: -102.5px;
+  top: 224px;
+}
+
+.human-fever svg#right-hand {
+  margin-left: 66.5px;
+  top: 224px;
+  z-index: 10000;
+}
+
+.human-fever svg#left-foot {
+  margin-left: -35.5px;
+  top: 455px;
+}
+
+.human-fever svg#right-foot {
+  margin-left: 5.5px;
+  top: 455px;
+}
+
+#area {
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Courier New;
+  color: #a5a5a5;
+}
+
+#area #data {
+  color: black;
+}
+
+/* chest */
+.human-chest {
+  width: 207px;
+  position: relative;
+  padding-top: 240px;
+  height: 290px !important;
+  display: block;
+  margin: 120px auto;
+}
+
+.human-chest svg:hover {
+  cursor: pointer;
+}
+
+.human-chest svg:hover path {
+  fill: #ff7d16;
+}
+
+.human-chest scg {
+  position: absolute;
+  left: 50%;
+  fill: #c71e1e;
+}
+
+.human-chest svg {
+  position: absolute;
+  left: 50%;
+  fill: #57c9d5;
+}
+
+.human-chest svg#head {
+  margin-left: -28.5px;
+  top: -6px;
+  color: #c71e1e !important;
+}
+
+.human-chest svg#left-shoulder {
+  margin-left: -53.5px;
+  top: 69px;
+  color: #c71e1e !important;
+}
+
+.human-chest svg#right-shoulder {
+  margin-left: 13.5px;
+  top: 69px;
+}
+
+.human-chest svg#left-arm {
+  margin-left: -78px;
+  top: 112px;
+}
+
+.human-chest svg#right-arm {
+  margin-left: 38px;
+  top: 112px;
+  z-index: 10001;
+}
+
+.human-chest svg#chest {
+  margin-left: -43.5px;
+  top: 88px;
+  fill: #c71e1e !important;
+  text-decoration-color: #c71e1e; 
+}
+
+.human-chest svg#stomach {
+  margin-left: -37.5px;
+  top: 130px;
+}
+
+.human-chest svg#left-leg {
+  margin-left: -46.5px;
+  top: 205px;
+  z-index: 9999;
+}
+
+.human-chest svg#right-leg {
+  margin-left: 1.5px;
+  top: 205px;
+  z-index: 9999;
+}
+
+.human-chest svg#left-hand {
+  margin-left: -102.5px;
+  top: 224px;
+}
+
+.human-chest svg#right-hand {
+  margin-left: 66.5px;
+  top: 224px;
+  z-index: 10000;
+}
+
+.human-chest svg#left-foot {
+  margin-left: -35.5px;
+  top: 455px;
+}
+
+.human-chest svg#right-foot {
+  margin-left: 5.5px;
+  top: 455px;
+}
+
+/* chest new */
+
+.human-chest svg#chest {
+  fill:#8ccce7 !important;
+  transform: rotate(180deg);
+  transform-origin:24px 37px;
+  margin-left: -43.5px;
+  top: 88px;
 }

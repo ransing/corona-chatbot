@@ -1,25 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Original from './components/Original'
+import Fever from './components/Fever'
+import Chest from './components/Chest'
+import Base from './components/base/Base'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+      
+      <div>
+        <h2 style={{"color":"white","text-align": "center","margin-top":"60px"}}>Simple Chatbot for COVID-19 symptoms</h2>
+          {/* <Original/> */}
+          <Base />
+
+          {/* <Fever />
+          <Chest /> */}
+      </div>
+    // </div>
   );
 }
 

@@ -1,0 +1,117 @@
+.human-aches {
+    width: 207px;
+    position: relative;
+    padding-top: 0px;
+    height: 290px !important;
+    display: block;
+    margin: 0px auto;
+    top: -234px;
+    left:-1px;
+    fill: #431ec7;
+    
+    
+  }
+  
+  .human-aches svg:hover {
+    cursor: pointer;
+  }
+  
+  .human-aches svg:hover path {
+    fill: #ff7d16;
+  }
+  
+  .human-aches scg {
+    position: absolute;
+    left: 50%;
+    fill: #37c71e ;
+  }
+  
+  .human-aches svg {
+    position: absolute;
+    left: 50%;
+    fill: #5ceb23c5;
+  }
+  
+  .human-aches svg#head {
+    margin-left: -28.5px;
+    top: -6px;
+  }
+  
+  .human-aches svg#left-shoulder {
+    margin-left: -53.5px;
+    top: 69px;
+  }
+  
+  .human-aches svg#right-shoulder {
+    margin-left: 13.5px;
+    top: 69px;
+  }
+  
+  .human-aches svg#left-arm {
+    margin-left: -78px;
+    top: 112px;
+  }
+  
+  .human-aches svg#right-arm {
+    margin-left: 38px;
+    top: 112px;
+    z-index: 10001;
+  }
+  
+  .human-aches svg#chest {
+    margin-left: -43.5px;
+    top: 88px;
+  }
+  
+  .human-aches svg#stomach {
+    margin-left: -37.5px;
+    top: 130px;
+  }
+  
+  .human-aches svg#left-leg {
+    margin-left: -46.5px;
+    top: 205px;
+    z-index: 9999;
+  }
+  
+  .human-aches svg#right-leg {
+    margin-left: 1.5px;
+    top: 205px;
+    z-index: 9999;
+  }
+  
+  .human-aches svg#left-hand {
+    margin-left: -102.5px;
+    top: 224px;
+  }
+  
+  .human-aches svg#right-hand {
+    margin-left: 66.5px;
+    top: 224px;
+    z-index: 10000;
+  }
+  
+  .human-aches svg#left-foot {
+    margin-left: -35.5px;
+    top: 455px;
+  }
+  
+  .human-aches svg#right-foot {
+    margin-left: 5.5px;
+    top: 455px;
+  }
+  
+  #area {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Courier New;
+    color: #a5a5a5;
+  }
+  
+  #area #data {
+    color: black;
+  }

@@ -1,0 +1,6 @@
+.buttonDiv {
+    margin: 150px;
+    z-index: 2;
+    position: relative;
+    /* position: fixed; */
+}
