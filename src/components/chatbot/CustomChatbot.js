@@ -12,9 +12,9 @@ function CustomChatbot(props) {
     };
 
     const theme = {
-        background: '#f5f8fb',
+        background: '#1F1C18',
         fontFamily: 'Helvetica Neue',
-        headerBgColor: '#EF6C00',
+        headerBgColor: '#30274F',
         headerFontColor: '#fff',
         headerFontSize: '15px',
         botBubbleColor: '#EF6C00',
@@ -140,7 +140,17 @@ function CustomChatbot(props) {
       {
        id: "Done",
        message: "Have a great day !!",
-       end: true
+       trigger: "more info"
+      },
+      {
+        id: "more info",
+        component: (
+          <div>
+          <li><a target="_blank" href="https://coronacollection.netlify.com">More COVID-19 Apps</a></li>
+          <li><a target="_blank" href="https://viraj.info">Feedback</a></li>
+          </div>
+        ),
+        end: true,
       }
     ];
 
@@ -148,6 +158,9 @@ function CustomChatbot(props) {
     <>
      <ThemeProvider theme={theme}>
         <ChatBot 
+          style={{"z-index":"999"}}
+          headerTitle="COVID-19 Chatbot"
+          recognitionEnable={true}
           steps={steps}
           {...config}
 

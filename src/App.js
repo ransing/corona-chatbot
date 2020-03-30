@@ -14,7 +14,7 @@ function App() {
         <h2 style={{"color":"white","text-align": "center","margin-top":"60px"}}>Simple Chatbot for COVID-19 symptoms</h2>
           {/* <Original/> */}
           <Base />
-
+          <p style={{'color':'gray', "text-align":"center"}}>Information on this page is designed for educational and informational purposes only</p>
           {/* <Fever />
           <Chest /> */}
       </div>

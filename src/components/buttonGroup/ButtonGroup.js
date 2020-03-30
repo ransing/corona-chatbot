@@ -4,7 +4,7 @@ import './buttonGroup.css'
 
 function ButtonGroup(props) {
   const buttonWidth = {
-    width: "400px"
+    width: "350px"
   };
   return (
     <div className="buttonDiv">

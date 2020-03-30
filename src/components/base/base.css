@@ -5,6 +5,7 @@
     left: 61px !important;
     top: 88px;
     right: 34px;
+    z-index: 20;
 }
 
 .headHurts {
@@ -14,6 +15,7 @@
     left: 74px !important;
     top: -4px;
     right: 34px;
+    z-index: 19;
 }
 
 .fever {
