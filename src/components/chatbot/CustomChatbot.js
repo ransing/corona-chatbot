@@ -114,7 +114,7 @@ function CustomChatbot(props) {
       },
       {
         id: "Anything else",
-        message: "Sorry you have been experiencing {previousValue}",
+        message: "Current symptom: {previousValue}",
         trigger: "before yes or no"
       },
       {
