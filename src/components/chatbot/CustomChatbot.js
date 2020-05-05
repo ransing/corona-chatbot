@@ -32,7 +32,7 @@ function CustomChatbot(props) {
       },
       {
         id: "Ask Name",
-        message: "What your name?",
+        message: "What's your name?",
         trigger: "Waiting for name"
       },
       {
